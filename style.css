@@ -5,15 +5,15 @@
 }
 .banner-1 {
     background-image: url(./imgs/anh1.jpg);
-    height: 521px;
-    height: 621px;
+    /* height: 521px; */
+    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .inner-content {
     position: absolute;
     left: 100px;
-    bottom: 100px;
+    bottom: 60px;
     /* border-top: 1px solid #fff; */
     width: 400px;
     color: #fff;
@@ -23,9 +23,49 @@
     height: 1px;
     background-color: #fff;
 }
-.inner-content .inner-icons{
+.inner-content .inner-icons {
     font-size: 20px;
-    display: flex ;
+    display: flex;
     gap: 20px;
-    margin-top: 20px;color: #fff;
+    margin-top: 20px;
+    color: #fff;
+}
+.banner-2 img {
+    width: 100%;
+    height: 500px;
+}
+.banner-2 .inner-list {
+    display: flex;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    margin-top: 10px;
+}
+.banner-2 .inner-list .inner-item {
+    text-align: center;
+    width: 33%;
+}
+.banner-2 .inner-list .inner-item  i{
+    font-size: 20px;
+    /* color: #fff; */
+}
+.banner-2 .inner-list .inner-item h2{
+    margin: 10px 0;
+}
+.banner-2 .inner-title{
+    position: absolute;
+    bottom: 220px;
+    left: 35px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 130px;
+
+}
+.banner-2 .inner-desc{
+    position: absolute;
+    bottom: 150px;
+    left: 35px;
+    font-size: 70px;
+    
+    margin-left: 130px;
 }
